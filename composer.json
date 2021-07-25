@@ -1,0 +1,15 @@
+{
+    "name": "kali/twalow",
+    "authors": [
+        {
+            "name": "Shawn Swanson",
+            "email": "shawn.a.swanson@aol.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
