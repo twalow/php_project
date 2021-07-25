@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace app\controllers;
 
-class SiteControllers
+class SiteController
 {
 
 
-    public static function contact()
+    public function contact()
     {
         return "hey contact";
 
