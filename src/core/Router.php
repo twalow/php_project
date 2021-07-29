@@ -83,9 +83,7 @@ class Router
 
     protected function renderViewOnly(string $view, array $params): string
     {
-        foreach ($params as $key => $value) {
-            $$key = $value;
-        }
+        extract($params, EXTR_SKIP);
 
         ob_start();
         include_once Application::$rootDir."/views/$view.php";
